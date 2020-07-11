@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pit_scout/RSAEncrypt.dart';
+import 'package:pit_scout/MD5Encrypt.dart';
 import 'authentication.dart';
 import 'root.dart';
 import 'package:provider/provider.dart';
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         title: title,
-//        theme: ThemeData.dark(),
+        theme: ThemeData.dark(),
         home: RootPage(auth: Auth()),
       ),
     );

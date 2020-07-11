@@ -6,7 +6,7 @@ import 'package:pit_scout/Model/GameData.dart';
 import 'package:flutter/material.dart';
 
 import '../DataPackages.dart';
-import '../RSAEncrypt.dart';
+import '../MD5Encrypt.dart';
 
 class GameDataModel extends ChangeNotifier {
   GameData gameData = new GameData();
